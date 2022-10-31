@@ -1,0 +1,30 @@
+.ClockText {
+  margin-bottom: 20px;
+}
+
+.ClockCard {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 4px;
+}
+
+.cardTime {
+  display: flex;
+  gap: 4px;
+}
+
+.itemTime {
+  background: whitesmoke;
+  border-radius: 8px;
+  padding: 15px;
+  width: 20px;
+  color: rgb(39, 39, 39);
+}
+
+.card-container__description {
+  position: relative;
+  text-align: center;
+  margin: 0;
+  font-size: 0.8rem;
+}
