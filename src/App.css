@@ -6,8 +6,8 @@
 }
 
 .logo {
-  height: 6em;
-  padding: 1.5em;
+  height: 4em;
+  padding: 1em;
   will-change: filter;
 }
 .logo:hover {
@@ -42,4 +42,8 @@
 
 .data {
   font-family: "Courier New", Courier, monospace;
+}
+
+.copied {
+  opacity: 0.5;
 }

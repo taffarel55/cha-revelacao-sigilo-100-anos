@@ -30,7 +30,7 @@ function ClipboardCopy({ copyText }) {
 
   return (
     <div>
-      <div className="data">{copyText}</div>
+      <div className={`data ${isCopied ? "copied" : ""}`}>{copyText}</div>
 
       <button onClick={handleCopyClick}>
         <span>{isCopied ? "Copiado" : "Copiar"}</span>
