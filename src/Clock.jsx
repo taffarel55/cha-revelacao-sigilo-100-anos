@@ -20,7 +20,7 @@ const CardTime = ({ valueTime, description }) => {
 
 const Clock = ({ countDownDate }) => {
   const { month, day, hour, minute, second } = useCountdown(countDownDate);
-
+  console.log(month, day, hour, minute, second)
   return (
     <div className="Clock">
       <div className="ClockText">{`${month} ${

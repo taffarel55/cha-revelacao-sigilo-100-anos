@@ -19,6 +19,11 @@ const useCountdown = (targetDate) => {
 };
 
 const getReturnValues = (countDown) => {
+
+  if (countDown < 0) {
+    return { month: 0, day: 0, hour: 0, minute: 0, second: 0 };
+  }
+
   var values = {};
   const rules = {
     month: 1000 * 60 * 60 * 24 * 30,
